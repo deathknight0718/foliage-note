@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/2016333726_3484772030_223132457.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/543634251_2197011860_4259040056.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/543634251_196249530_1738052532.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/543634251_808740583_2869203172.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/543634251_2290505167_3944215147.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/NeuralNetworkUnit/543634251_2872842549_280073744.mp4'

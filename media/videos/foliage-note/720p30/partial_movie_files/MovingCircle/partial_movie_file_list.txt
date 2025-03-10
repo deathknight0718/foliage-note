@@ -1,8 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/2016333726_3789429803_223132457.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_2430544138_3481380946.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_1432596116_361131645.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_2939512602_578674303.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_1432596116_292394660.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_1990416430_2373750003.mp4'
-file 'file:D:/Projects/foliage-note/media/videos/foliage-note/720p30/partial_movie_files/MovingCircle/543634251_1432596116_3278671325.mp4'
