@@ -6,3 +6,6 @@
 
 # Manim Path
 media
+
+# Data Parquet Files
+*.parquet
