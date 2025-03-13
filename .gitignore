@@ -9,3 +9,6 @@ media
 
 # Data Parquet Files
 *.parquet
+
+# Data CSV Files
+runs
