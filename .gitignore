@@ -12,3 +12,6 @@ media
 
 # Data CSV Files
 runs
+
+# Environment Variables
+.env
