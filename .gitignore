@@ -3,3 +3,18 @@
 
 # VSCode Settings Path
 .vscode
+
+# Manim Path
+media
+
+# Data Parquet Files
+*.parquet
+
+# Data CSV Files
+runs
+
+# Environment Variables
+.env
+
+# Notebook Plugin
+.crossnote
