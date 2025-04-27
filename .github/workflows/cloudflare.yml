@@ -41,17 +41,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Site Build
         run: |
-          mkdir -p foliage-note/.build
-          mkdir -p foliage-note/site/themes
-          mkdir -p foliage-note/site/content/posts
-          mkdir -p foliage-note/site/content/resources
+          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/.build
+          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/themes
+          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/content/posts
+          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/content/resources
       - name: Site Theme Install
         run: |
-          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C foliage-note/site/themes/LoveIt --strip-components=1
+          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C ${GITHUB_WORKSPACE}/foliage-note/site/themes/LoveIt --strip-components=1
       - name: Site Copy
         run: |
-          mv ${{ runner.temp }}/LoveIt-${HUGO_THEME_VERSION} foliage-note/site/themes/LoveIt
-          cp -p foliage-note/posts/* foliage-note/site/content/posts/
-          cp -p foliage-note/resources/* foliage-note/site/content/resources/
-          cd foliage-note/site
+          cp -p ${GITHUB_WORKSPACE}/foliage-note/posts/* ${GITHUB_WORKSPACE}/foliage-note/site/content/posts/
+          cp -p ${GITHUB_WORKSPACE}/foliage-note/resources/* ${GITHUB_WORKSPACE}/foliage-note/site/content/resources/
+          cd ${GITHUB_WORKSPACE}/foliage-note/site
           hugo --minify --gc --destination foliage-note/.build
