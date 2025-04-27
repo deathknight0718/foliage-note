@@ -24,3 +24,4 @@ runs
 
 # Site
 site/themes
+site/.hugo_build.lock
