@@ -54,7 +54,7 @@ jobs:
           ls ${GITHUB_WORKSPACE}/posts
           cp ${GITHUB_WORKSPACE}/resources/* ${GITHUB_WORKSPACE}/site/static/resources/
           cd ${GITHUB_WORKSPACE}/site
-          hugo --minify --gc --destination ${GITHUB_WORKSPACE}/.build
+          hugo --minify --gc -buildDrafts --destination ${GITHUB_WORKSPACE}/.build
       - name: Upload Artifacts
         uses: cloudflare/wrangler-action@v3
         with:
