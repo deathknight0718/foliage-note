@@ -51,7 +51,6 @@ jobs:
       - name: Site Copy
         run: |
           cp ${GITHUB_WORKSPACE}/posts/* ${GITHUB_WORKSPACE}/site/content/posts/
-          ls ${GITHUB_WORKSPACE}/posts
           cp ${GITHUB_WORKSPACE}/resources/* ${GITHUB_WORKSPACE}/site/static/resources/
           cd ${GITHUB_WORKSPACE}/site
           hugo --minify --gc -buildDrafts --destination ${GITHUB_WORKSPACE}/.build
