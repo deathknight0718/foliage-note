@@ -18,3 +18,6 @@ runs
 
 # Notebook Plugin
 .crossnote
+
+# Build Files
+.build
