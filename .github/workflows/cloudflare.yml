@@ -39,12 +39,17 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Site Move
-        run: |
-          cp -rf foliage-note/site ${{ runner.temp }}/foliage
       - name: Site Theme Install
         run: |
-          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz && mv ${{ runner.temp }}/LoveIt-${HUGO_THEME_VERSION} ${{ runner.temp }}/foliage/themes/LoveIt
+          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz
       - name: Site Build
         run: |
-          hugo ${{ runner.temp }}/foliage
+          mkdir -p foliage-note/.build
+          mkdir -p foliage-note/site/themes
+          mkdir -p foliage-note/site/content/posts
+          mkdir -p foliage-note/site/content/resources
+          mv ${{ runner.temp }}/LoveIt-${HUGO_THEME_VERSION} foliage-note/site/themes/LoveIt
+          cp -p foliage-note/posts/* foliage-note/site/content/posts/
+          cp -p foliage-note/resources/* foliage-note/site/content/resources/
+          cd foliage-note/site
+          hugo --minify --gc --destination foliage-note/.build

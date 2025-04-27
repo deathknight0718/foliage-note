@@ -23,4 +23,4 @@ runs
 .build
 
 # Site
-site
+site/themes
