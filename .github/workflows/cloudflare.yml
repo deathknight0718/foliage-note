@@ -43,6 +43,7 @@ jobs:
         run: |
           mkdir -p foliage-note/.build
           mkdir -p foliage-note/site/themes
+          mkdir -p foliage-note/site/themes/LoveIt
           mkdir -p foliage-note/site/content/posts
           mkdir -p foliage-note/site/content/resources
       - name: Site Theme Install
