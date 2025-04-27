@@ -39,18 +39,22 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check Path
+        run: |
+          echo "Hugo version: $GITHUB_WORKSPACE" 
       - name: Site Build
         run: |
-          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/.build
-          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/themes
-          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/content/posts
-          mkdir -p ${GITHUB_WORKSPACE}/foliage-note/site/content/resources
+          mkdir ${GITHUB_WORKSPACE}/.build
+          mkdir ${GITHUB_WORKSPACE}/site/themes
+          mkdir ${GITHUB_WORKSPACE}/site/themes/LoveIt
+          mkdir ${GITHUB_WORKSPACE}/site/content/posts
+          mkdir ${GITHUB_WORKSPACE}/site/content/resources
       - name: Site Theme Install
         run: |
-          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C ${GITHUB_WORKSPACE}/foliage-note/site/themes/LoveIt --strip-components=1
+          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C ${GITHUB_WORKSPACE}/site/themes/LoveIt --strip-components=1
       - name: Site Copy
         run: |
-          cp -p ${GITHUB_WORKSPACE}/foliage-note/posts/* ${GITHUB_WORKSPACE}/foliage-note/site/content/posts/
-          cp -p ${GITHUB_WORKSPACE}/foliage-note/resources/* ${GITHUB_WORKSPACE}/foliage-note/site/content/resources/
-          cd ${GITHUB_WORKSPACE}/foliage-note/site
-          hugo --minify --gc --destination foliage-note/.build
+          cp ${GITHUB_WORKSPACE}/posts/* ${GITHUB_WORKSPACE}/site/content/posts/
+          cp ${GITHUB_WORKSPACE}/resources/* ${GITHUB_WORKSPACE}/site/content/resources/
+          cd ${GITHUB_WORKSPACE}/site
+          hugo --minify --gc --destination ${GITHUB_WORKSPACE}/.build
