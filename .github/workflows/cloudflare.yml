@@ -44,11 +44,11 @@ jobs:
           echo "Hugo version: $GITHUB_WORKSPACE" 
       - name: Site Build
         run: |
-          mkdir ${GITHUB_WORKSPACE}/.build
-          mkdir ${GITHUB_WORKSPACE}/site/themes
-          mkdir ${GITHUB_WORKSPACE}/site/themes/LoveIt
-          mkdir ${GITHUB_WORKSPACE}/site/content/posts
-          mkdir ${GITHUB_WORKSPACE}/site/content/resources
+          mkdir -p ${GITHUB_WORKSPACE}/.build
+          mkdir -p ${GITHUB_WORKSPACE}/site/themes
+          mkdir -p ${GITHUB_WORKSPACE}/site/themes/LoveIt
+          mkdir -p ${GITHUB_WORKSPACE}/site/content/posts
+          mkdir -p ${GITHUB_WORKSPACE}/site/content/resources
       - name: Site Theme Install
         run: |
           wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C ${GITHUB_WORKSPACE}/site/themes/LoveIt --strip-components=1
