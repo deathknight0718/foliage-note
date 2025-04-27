@@ -43,12 +43,11 @@ jobs:
         run: |
           mkdir -p foliage-note/.build
           mkdir -p foliage-note/site/themes
-          mkdir -p foliage-note/site/themes/LoveIt
           mkdir -p foliage-note/site/content/posts
           mkdir -p foliage-note/site/content/resources
       - name: Site Theme Install
         run: |
-          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C foliage-note/themes/LoveIt --strip-components=1
+          wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C foliage-note/site/themes/LoveIt --strip-components=1
       - name: Site Copy
         run: |
           mv ${{ runner.temp }}/LoveIt-${HUGO_THEME_VERSION} foliage-note/site/themes/LoveIt
