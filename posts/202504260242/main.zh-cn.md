@@ -9,7 +9,7 @@ description: "系统架构师考试软件工程笔记汇总"
 images: []
 resources:
 - name: "featured-image"
-  src: "/resources/202504281518.jpg"
+  src: "featured-image.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
 lightgallery: true

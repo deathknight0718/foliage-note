@@ -50,8 +50,8 @@ jobs:
           wget -O ${{ runner.temp }}/LoveIt.tar.gz https://github.com/dillonzq/LoveIt/archive/refs/tags/v${HUGO_THEME_VERSION}.tar.gz && tar -xvf ${{ runner.temp }}/LoveIt.tar.gz -C ${GITHUB_WORKSPACE}/site/themes/LoveIt --strip-components=1
       - name: Site Copy
         run: |
-          cp ${GITHUB_WORKSPACE}/posts/* ${GITHUB_WORKSPACE}/site/content/posts/
-          cp ${GITHUB_WORKSPACE}/resources/* ${GITHUB_WORKSPACE}/site/static/resources/
+          cp -rf ${GITHUB_WORKSPACE}/posts/* ${GITHUB_WORKSPACE}/site/content/posts/
+          cp -rf ${GITHUB_WORKSPACE}/resources/* ${GITHUB_WORKSPACE}/site/static/resources/
           cd ${GITHUB_WORKSPACE}/site
           hugo --minify --gc --buildDrafts --destination ${GITHUB_WORKSPACE}/.build
       - name: Upload Artifacts
