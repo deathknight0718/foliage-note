@@ -50,16 +50,21 @@ hasCJKLanguage = true
 [params]
   # 主页配置
   [params.home]
+    # RSS 文章数目
     rss = 10
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "/resources/202504281532.png"
+      avatarURL = ""
       title = ""
-      subtitle = "刘正的个人主页"
+      subtitle = ""
       typeit = true
       social = true
       disclaimer = ""
+    [params.home.posts]
+      enable = true
+      # 主页每页显示文章数量
+      paginate = 5
   # 作者配置
   [params.author]
     name = "Liu Zheng"
@@ -78,7 +83,7 @@ hasCJKLanguage = true
       # 标题名称
       name = "Foliage Develop"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fa-regular fa-house'></i>"
+      pre = "<i class='far fa-house fa-fw'></i>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # 是否为标题显示打字机动画
@@ -158,6 +163,17 @@ hasCJKLanguage = true
         name = ""
         url = "https://github.com/deathknight0718"
         title = "GitHub"
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/resources/202504281532.png"
+          title = ""
+          subtitle = "Liu Zheng's Web Site"
+          typeit = true
+          social = true
+          disclaimer = ""
  [languages.zh-cn]
     weight = 2
     languageCode = "zh-CN"
@@ -212,3 +228,14 @@ hasCJKLanguage = true
         name = ""
         url = "https://github.com/deathknight0718"
         title = "GitHub"
+      [languages.zh-cn.params.home]
+        rss = 10
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/resources/202504281532.png"
+          title = ""
+          subtitle = "刘正的个人空间"
+          typeit = true
+          social = true
+          disclaimer = ""
