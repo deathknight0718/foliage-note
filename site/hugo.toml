@@ -79,11 +79,11 @@ hasCJKLanguage = true
     # 页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
-      logo = ""
+      logo = "/logo.svg"
       # 标题名称
-      name = "Foliage Develop"
+      name = ""
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-house fa-fw'></i>"
+      pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # 是否为标题显示打字机动画
