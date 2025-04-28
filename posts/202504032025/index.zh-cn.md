@@ -7,9 +7,8 @@ author: "Liu Zheng"
 authorLink: ""
 description: "系统架构师考试中容易混淆的概念记录"
 images: []
-resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
+featuredImage: "/resources/202504281636.jpg"
+featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
 lightgallery: true
