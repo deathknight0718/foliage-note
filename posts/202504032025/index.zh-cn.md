@@ -4,9 +4,6 @@ date: 2020-03-06T21:40:32+08:00
 lastmod: 2020-03-06T21:40:32+08:00
 draft: false
 author: "Liu Zheng"
-authorLink: ""
-description: "系统架构师考试中容易混淆的概念记录"
-images: []
 featuredImage: "/resources/202504281636.jpg"
 featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
@@ -16,7 +13,11 @@ toc:
   auto: false
 ---
 
-## 网络工程弱点概念
+本文总结了系统架构师考试中相关的易混淆概念，包括OSI七层模型与TCP/IP协议集的区别、各层协议数据单元（PDU）的定义，以及常见协议的分类和作用，帮助考生理清网络基础知识点。
+
+<!-- more -->
+
+## 1.网络工程弱点概念
 
 ---
 

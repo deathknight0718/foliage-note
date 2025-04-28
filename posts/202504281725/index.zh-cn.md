@@ -4,9 +4,6 @@ date: 2020-03-06T21:40:32+08:00
 lastmod: 2020-03-06T21:40:32+08:00
 draft: false
 author: "Liu Zheng"
-authorLink: ""
-description: "系统架构师考试信息安全笔记汇总"
-images: []
 featuredImage: "/resources/202504281636.jpg"
 featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
@@ -15,6 +12,10 @@ lightgallery: true
 toc:
   auto: false
 ---
+
+本文总结了系统架构师考试中信息安全相关的核心知识，包括信息安全的基本概念、要素与范围，信息存储和网络安全，信息系统安全的作用，信息安全系统的技术与管理框架。内容涵盖对称与非对称加密算法、密钥管理、访问控制、数字签名、抗攻击技术（如DDoS、欺骗攻击、端口扫描等）、安全保障体系（如等保、TCSEC等级）及安全风险管理方法，帮助读者全面理解信息安全的理论与实践要点。
+
+<!-- more -->
 
 ## 3.1 信息安全基础知识
 
