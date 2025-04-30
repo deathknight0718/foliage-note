@@ -16,9 +16,6 @@ runs
 # Environment Variables
 .env
 
-# Notebook Plugin
-.crossnote
-
 # Build Files
 .build
 

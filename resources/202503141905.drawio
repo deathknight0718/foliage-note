@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="3">
   <diagram name="202503180203" id="pOJSBz2F388MzzQqXLpO">
     <mxGraphModel dx="2060" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -228,6 +228,118 @@
         </mxCell>
         <mxCell id="BZrEL_AoJLJfvxBLy6PN-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;神经网络传播链路&lt;/h1&gt;&lt;p&gt;利用微积分中的链式求导，与线性代数的矩阵计算相结合，引入信息论中的概率分布，得到神经网络的推理链路与训练链路。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Sarasa Fixed SC;" parent="1" vertex="1">
           <mxGeometry x="100" y="40" width="520" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qiYJvt_MvyACPw_Zafv4" name="202504301557">
+    <mxGraphModel dx="2056" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-4" value="处理器（CPU）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-1" value="运算器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-2" value="控制器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-5" value="存储器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-6" value="输入设备" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-7" value="输出设备" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-8" value="接口" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-10" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;edgeStyle=orthogonalEdgeStyle;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-8" target="33GHvZgrDYKLfYc9OxTD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-11" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;edgeStyle=orthogonalEdgeStyle;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-8" target="33GHvZgrDYKLfYc9OxTD-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="482" as="sourcePoint" />
+            <mxPoint x="450" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-12" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-4" target="33GHvZgrDYKLfYc9OxTD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="498" as="sourcePoint" />
+            <mxPoint x="450" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-13" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-4" target="33GHvZgrDYKLfYc9OxTD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-14" value="总线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-15" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;edgeStyle=orthogonalEdgeStyle;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-5" target="33GHvZgrDYKLfYc9OxTD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="sourcePoint" />
+            <mxPoint x="850" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-16" value="处理器（CPU）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="295" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-17" value="运算器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="770" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-20" value="数据存储器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-21" value="指令存储器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-22" value="数据控制器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-23" value="指令控制器" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-24" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-20" target="33GHvZgrDYKLfYc9OxTD-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="sourcePoint" />
+            <mxPoint x="850" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-25" value="" style="endArrow=none;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontSize=14;" edge="1" parent="1" source="33GHvZgrDYKLfYc9OxTD-21" target="33GHvZgrDYKLfYc9OxTD-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="778" y="530" as="sourcePoint" />
+            <mxPoint x="809" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-28" value="冯·诺伊曼结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Yozai;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33GHvZgrDYKLfYc9OxTD-29" value="哈佛结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Yozai;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760" y="600" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fLhgOXIDCgt8Mmk34VlK" name="202504301637">
+    <mxGraphModel dx="2056" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TakrLK14EmMy7O8iqi8m-1" value="总线接口单元（Bus Interface Unit, BIU）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TakrLK14EmMy7O8iqi8m-2" value="指令解码器（Instruction Decoder）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="440" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
