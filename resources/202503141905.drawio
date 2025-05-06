@@ -335,11 +335,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TakrLK14EmMy7O8iqi8m-1" value="总线接口单元（Bus Interface Unit, BIU）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="440" height="40" as="geometry" />
+        <mxCell id="TakrLK14EmMy7O8iqi8m-1" value="ISO 25010 质量属性集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="760" y="480" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TakrLK14EmMy7O8iqi8m-2" value="指令解码器（Instruction Decoder）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="200" y="360" width="440" height="80" as="geometry" />
+        <mxCell id="GDagNyxSwMHRGMX6FauA-2" value="ISO 25010 质量属性集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="400" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
