@@ -30,6 +30,8 @@ toc:
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## 处理器芯片架构
 
 [文献参考](https://jameltayeb.com/2020/08/15/p6-rocks/)
