@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="4">
   <diagram name="202503180203" id="pOJSBz2F388MzzQqXLpO">
     <mxGraphModel dx="2060" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -331,16 +331,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fLhgOXIDCgt8Mmk34VlK" name="202504301637">
-    <mxGraphModel dx="2056" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TakrLK14EmMy7O8iqi8m-1" value="ISO 25010 质量属性集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="760" y="480" width="200" height="80" as="geometry" />
+        <mxCell id="GDagNyxSwMHRGMX6FauA-2" value="软件工程" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GDagNyxSwMHRGMX6FauA-2" value="ISO 25010 质量属性集" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="400" width="200" height="80" as="geometry" />
+        <mxCell id="rHa1mY-f37YVa6NH8hOt-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;软件工程知识图谱&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- 软件开发活动一旦实施工程化，意味着其活动具备了生命周期特性&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="600" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="rHa1mY-f37YVa6NH8hOt-2" value="生命周期&lt;div&gt;Software Development Life Cycle, SDLC&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="320" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GoscB0uR74a5kBrxdLhu" name="202505210126">
+    <mxGraphModel dx="1185" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
