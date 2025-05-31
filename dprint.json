@@ -1,0 +1,10 @@
+{
+  "lineWidth": 512,
+  "useTabs": false,
+  "plugins": [
+    "/home/foliage/.dprint/plugins/typescript.wasm",
+    "/home/foliage/.dprint/plugins/json.wasm",
+    "/home/foliage/.dprint/plugins/markdown.wasm",
+    "/home/foliage/.dprint/plugins/malva.wasm"
+  ]
+}

@@ -1,0 +1,192 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="2">
+  <diagram name="第 1 页" id="8zmMepNjtwXe2_eperEI">
+    <mxGraphModel dx="1430" dy="825" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="88_FeB40pw0zeKnyLPVA-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;审计过程定义&lt;/h1&gt;&lt;p&gt;- 参考《固定式压力容器安全技术监察规程》（TSG 21-2016）&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="32" y="32" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-2" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=2;endSize=10;jumpSize=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="32" y="160" as="sourcePoint" />
+            <mxPoint x="1120" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-8" value="&lt;b&gt;设计审查阶段&lt;/b&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;设计条件确认&lt;/b&gt;，接收设计任务书，核对使用工况、环境参数、预期寿命等。&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;设计输入资料审核&lt;/b&gt;，核对工艺流程图、介质参数、外部载荷资料等。&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;结构与参数审查&lt;/b&gt;，判断设计压力、温度、腐蚀裕量等是否符合标准。&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;图样完整性核查&lt;/b&gt;，检查总图、部件图、接管图、焊接图是否齐备、签字完整。&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;计算书技术审定&lt;/b&gt;，审核应力计算方法、模型假设、参数选择与标准依据。&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;- &lt;b&gt;安全附件选型确认&lt;/b&gt;，验证安全阀、爆破片是否满足放散要求，有无遗漏&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="64" y="192" width="160" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-9" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;材料与制造过程审计&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;原材料入库审核&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;核查材料批次、炉号、质量证明文件。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;标识移植与代用审批&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;检查移植方式、代用审批单、追溯性是否合规。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;焊接工艺审核与试板评定&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;审查焊接参数、接头布置，见证试板制作及评定过程。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;焊工资格与施焊记录检查&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;焊工证书编号、有效期核对，施工记录回溯焊缝。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;热处理过程记录核查&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;热处理参数、时间曲线、控制点布置及记录审查。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;无损检测方案执行审计&lt;/b&gt;，&lt;span style=&quot;background-color: initial;&quot;&gt;检查检测比例、检测人员资格、检测方法及影像质量。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="256" y="192" width="160" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-10" value="&lt;b&gt;监督检验核查&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;制造监督计划制定与报备&lt;/b&gt;，制造单位与监检机构签署检验计划，确定见证点。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;现场过程监检&lt;/b&gt;，包括开工检查、原材见证、焊接过程、热处理、试验等。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;无损检测监检&lt;/b&gt;，对关键焊缝进行射线或超声波抽检，底片审定。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;安全附件监检与验证&lt;/b&gt;，包括校验压力、安全装置铭牌参数确认。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;问题整改与回访复核&lt;/b&gt;，监检中发现问题的闭环处理，必要时复检。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;出具监督检验证书&lt;/b&gt;，监检全部合格后签发法定检验证书。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="448" y="192" width="160" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-11" value="&lt;b&gt;试验验证与性能确认&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;试验方案编制与审批&lt;/b&gt;，明确试验压力、介质、试验方法、风险控制措施。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;试验设备校验检查&lt;/b&gt;，检查压力表、温度计等计量器具是否在有效期内。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;耐压/泄漏试验实施与见证&lt;/b&gt;，按方案进行试验，第三方或质控人员现场记录。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;异常情况记录与处理&lt;/b&gt;，如试验过程中出现渗漏、爆裂等，及时分析与记录。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;试验报告编制与归档&lt;/b&gt;，出具标准格式报告并归入审计资料中。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="192" width="160" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="88_FeB40pw0zeKnyLPVA-12" value="&lt;b&gt;归档与竣工资料审计&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;竣工图纸整理与封存&lt;/b&gt;，汇总各类施工图、变更图并加盖竣工章。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;合格证与铭牌核对&lt;/b&gt;，核查合格证与铭牌是否一致，并进行拓印。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;完整性核查清单确认&lt;/b&gt;，检查所有文档是否编号清晰、签字完整。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;质量证明文件生成光盘&lt;/b&gt;，整理所有资料电子版，生成U盘或光盘存档。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- &lt;b&gt;文件交接与责任签字&lt;/b&gt;，文件交接双方签字，明确保存年限与责任单位。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="832" y="192" width="160" height="384" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ahMGPftStS009x2D8lgZ" name="第 2 页">
+    <mxGraphModel dx="1430" dy="825" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8AvT10k9pSxq7TkWvO8c-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;审计智能体 - 审计路径功能规划&lt;/h1&gt;&lt;p&gt;- 参考《固定式压力容器安全技术监察规程》（TSG 21-2016）的设计审查阶段&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="32" y="32" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-1" value="&lt;b&gt;图纸文件上传&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="224" y="256" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-2" value="&lt;b&gt;智能模板生成&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="672" y="536" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-3" value="&lt;b&gt;执行计划表单&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="672" y="256" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-4" value="&lt;font face=&quot;Yozai&quot;&gt;&lt;b&gt;设计员&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="96" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-5" value="&lt;b&gt;执行计划创建&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="448" y="256" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-6" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-1" target="eTS-j5kz0xVu1Yhecied-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336" y="376" as="sourcePoint" />
+            <mxPoint x="386" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-7" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-3" target="eTS-j5kz0xVu1Yhecied-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="312" as="sourcePoint" />
+            <mxPoint x="264" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-11" value="&lt;b&gt;完善性检查&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="896" y="256" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-12" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-3" target="eTS-j5kz0xVu1Yhecied-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="328" y="408" as="sourcePoint" />
+            <mxPoint x="424" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-13" value="强度计算书" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="624" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-14" value="制造技术条件" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="576" y="704" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-15" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="442" as="sourcePoint" />
+            <mxPoint x="648" y="442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-16" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="546" as="sourcePoint" />
+            <mxPoint x="648" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-17" value="设计图样（规范化）" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="448" y="536" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-18" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="664" y="496" as="sourcePoint" />
+            <mxPoint x="374" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-19" value="&lt;b&gt;设计任务书&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="672" y="352" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-20" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-19" target="eTS-j5kz0xVu1Yhecied-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="712" y="312" as="sourcePoint" />
+            <mxPoint x="712" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-21" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-5" target="eTS-j5kz0xVu1Yhecied-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="712" y="312" as="sourcePoint" />
+            <mxPoint x="712" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-22" value="&lt;b&gt;审查报告生成&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="896" y="352" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-23" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-11" target="eTS-j5kz0xVu1Yhecied-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="712" y="312" as="sourcePoint" />
+            <mxPoint x="712" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-24" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-4" target="eTS-j5kz0xVu1Yhecied-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="328" y="288" as="sourcePoint" />
+            <mxPoint x="424" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-25" value="&lt;div&gt;扩展计算书&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- 压力容器安全泄放量&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- 安全阀排量&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- 爆破片泄放面积&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="736" y="704" width="168" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-26" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="731" y="503" as="sourcePoint" />
+            <mxPoint x="661" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-27" value="应力分析报告" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="864" y="624" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-28" value="&lt;b&gt;附加提示信息&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="448" y="352" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-29" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-19" target="eTS-j5kz0xVu1Yhecied-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="744" y="408" as="sourcePoint" />
+            <mxPoint x="744" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-30" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="754" y="504" as="sourcePoint" />
+            <mxPoint x="808" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-31" value="其他相关材料" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="896" y="536" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-32" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-2" target="eTS-j5kz0xVu1Yhecied-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="584" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-33" value="&lt;b&gt;执行参数定义&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="672" y="448" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-34" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-33" target="eTS-j5kz0xVu1Yhecied-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="744" y="408" as="sourcePoint" />
+            <mxPoint x="744" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-35" value="&lt;b&gt;PDM同步？？&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Yozai;" vertex="1" parent="1">
+          <mxGeometry x="224" y="160" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="eTS-j5kz0xVu1Yhecied-36" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="eTS-j5kz0xVu1Yhecied-35" target="eTS-j5kz0xVu1Yhecied-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="288" as="sourcePoint" />
+            <mxPoint x="456" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

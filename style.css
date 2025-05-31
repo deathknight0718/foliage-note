@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+html {
+  overflow-y: auto;
+}
+
+
+.markdown-preview pre {
+  font: var(--font-mono);
+  font-size: small;
+  padding: calc(var(--mui-spacing) * 2);
+  background-color: var(--mui-palette-grey-200);
+  overflow-x: auto;
+  margin: calc(var(--mui-spacing) * 2) 0;
+}
+.markdown-preview ol {
+  list-style-type: decimal;
+  padding: var(--mui-spacing) calc(var(--mui-spacing) * 3);
+}
+.markdown-preview ul {
+  list-style-type: disc;
+  padding: var(--mui-spacing) calc(var(--mui-spacing) * 3);
+}
+.markdown-preview li {
+  padding: 0 var(--mui-spacing);
+}
+.markdown-preview p {
+  font: var(--mui-font-body1);
+  padding: var(--mui-spacing) 0;
+}
+.markdown-preview h1 {
+  font: var(--mui-font-h3);
+  font-weight: bold;
+  color: var(--mui-palette-primary-main);
+  padding: calc(var(--mui-spacing) * 2) 0;
+}
+.markdown-preview h2 {
+  font: var(--mui-font-h4);
+  font-weight: bold;
+  color: var(--mui-palette-primary-main);
+  padding: calc(var(--mui-spacing) * 2) 0;
+}
+.markdown-preview h3 {
+  font: var(--mui-font-h5);
+  font-weight: bold;
+  color: var(--mui-palette-primary-main);
+  padding: calc(var(--mui-spacing) * 2) 0;
+}
+.markdown-preview h4 {
+  font: var(--mui-font-h6);
+  font-weight: bold;
+  padding: var(--mui-spacing) 0;
+}
+.markdown-preview h5 {
+  font: var(--mui-font-subtitle1);
+  font-weight: bold;
+  padding: var(--mui-spacing) 0;
+}
+.markdown-preview h6 {
+  font: var(--mui-font-subtitle2);
+  font-weight: bold;
+  padding: var(--mui-spacing) 0;
+}
+.markdown-preview table {
+  table-layout: auto;
+  width: 100%;
+  margin: calc(var(--mui-spacing) * 4) auto;
+  border-collapse: collapse;
+  box-shadow: var(--mui-shadows-3);
+}
+.markdown-preview td, .markdown-preview th {
+  font: var(--mui-font-body2);
+  border: 1px solid var(--mui-palette-primary-main);
+  min-width: calc(var(--mui-spacing) * 16);
+  padding: var(--mui-spacing);
+}
+.markdown-preview th {
+  color: var(--mui-palette-primary-contrastText);
+  background-color: var(--mui-palette-primary-light);
+}
+.markdown-preview img {
+  display: block;
+  max-width: calc(100% - var(--mui-spacing) * 2);
+  margin: calc(var(--mui-spacing) * 4) auto;
+  border: 1px solid var(--mui-palette-primary-main);
+  box-shadow: var(--mui-shadows-3);
+}
