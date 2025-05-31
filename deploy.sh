@@ -75,7 +75,7 @@ echo "Found notebooks:"
 for NOTEBOOK in $PROJECT_NOTEBOOKS_LIST; do
     echo "Converting $NOTEBOOK to Markdown..."
     NOTEBOOK_DIR_NAME=$(basename $(dirname "$NOTEBOOK"))
-    NOTEBOOK_DIR=$PROJECT_BUILD_DIR/public/notes/$NOTEBOOK_DIR_NAME
+    NOTEBOOK_DIR=$PROJECT_BUILD_DIR/posts/notes/$NOTEBOOK_DIR_NAME
     echo "Output directory: $NOTEBOOK_DIR"
     jupyter nbconvert --to markdown "$NOTEBOOK" --output-dir="$NOTEBOOK_DIR" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
     if [ $? -ne 0 ]; then
@@ -95,13 +95,15 @@ if [ ! -d "$PROJECT_MARKDOWNS_DIR" ]; then
     exit 1
 fi
 
-PROJECT_MARKDOWNS_LIST=$(find "$PROJECT_MARKDOWNS_DIR" -name "*.md" -type f)
-echo "Found markdowns:"
-for MARKDOWN in $PROJECT_MARKDOWNS_LIST; do
-    echo "Copying $MARKDOWN to build directory..."
-    cp -rf "$(dirname "$MARKDOWN")" "$PROJECT_BUILD_DIR/public/exams/"
-    if [ $? -ne 0 ]; then
-        echo "Failed to copy $MARKDOWN"
-        exit 1
-    fi
-done
+cp -rf "$PROJECT_MARKDOWNS_DIR" "$PROJECT_BUILD_DIR/posts/"
+
+###############################################################################
+# Deploy to Cloudflare
+###############################################################################
+
+rclone sync "$PROJECT_BUILD_DIR/posts" "cloudflare:foliage-note" --checksum --progress --transfers=10 --checkers=10
+if [ $? -ne 0 ]; then
+    echo "Failed to sync posts to Cloudflare."
+    exit 1
+fi
+echo "Posts copied to Cloudflare successfully."
