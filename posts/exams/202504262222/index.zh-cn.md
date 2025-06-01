@@ -1,16 +1,9 @@
 ---
-title: "架构考试 - 数据工程"
+title: "数据工程"
 date: 2025-05-05T21:40:32+08:00
-lastmod: 2025-05-05T21:40:32+08:00
-draft: false
 author: "Liu Zheng"
-featuredImage: "/resources/202504281636.jpg"
-featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
-lightgallery: true
-toc:
-  auto: false
 ---
 
 本文总结了系统架构师考试中数据工程部分的核心知识，包括数据库的基本概念、发展历程、数据模型（层次、网状、关系、非关系型）、数据库管理系统（DBMS）的主要功能及 SQL 命令分类，详细介绍了数据库三级模式、关系数据库的基本概念与设计理论（如函数依赖、多值依赖、规范化），并梳理了数据库设计的各个阶段及常见的用户访问接口。内容涵盖理论基础与实际应用，帮助考生系统掌握数据库相关知识。

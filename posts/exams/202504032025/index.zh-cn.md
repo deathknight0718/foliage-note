@@ -1,16 +1,9 @@
 ---
-title: "架构考试 - 弱点概念"
+title: "强化概念"
 date: 2025-05-05T21:40:32+08:00
-lastmod: 2025-05-05T21:40:32+08:00
-draft: false
 author: "Liu Zheng"
-featuredImage: "/resources/202504281636.jpg"
-featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
-lightgallery: true
-toc:
-  auto: false
 ---
 
 本文梳理了架构考试中的弱点概念，涵盖计算机体系结构、芯片发展、网络协议、物联网与移动通信、CORBA 与 TCSEC 标准、软件质量属性、UML、TOGAF、关系代数、操作系统内核、MDA 与 ABSD 等核心知识点，便于系统复习与查阅。

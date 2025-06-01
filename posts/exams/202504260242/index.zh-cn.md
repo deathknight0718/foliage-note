@@ -1,16 +1,9 @@
 ---
-title: "架构考试 - 软件工程"
+title: "软件工程"
 date: 2025-05-05T21:40:32+08:00
-lastmod: 2025-05-05T21:40:32+08:00
-draft: false
 author: "Liu Zheng"
-featuredImage: "/resources/202504281636.jpg"
-featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
-lightgallery: true
-toc:
-  auto: false
 ---
 
 本文系统梳理了系统架构师考试中软件工程相关的核心知识，包括基础概念、认知哲学、生命周期模型、架构设计方法与理念、质量属性分析、系统测试与可靠性建模，以及系统演化策略。内容涵盖理论基础、主流模型、实际案例和标准方法，帮助读者全面理解软件工程的体系化方法与实践要点。

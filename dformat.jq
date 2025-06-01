@@ -1,0 +1,13 @@
+def extract_value:
+  if type == "object" and .t == "MetaInlines" then .c[0].c
+  elif type == "object" and .t == "MetaList" then .c | map(extract_value)
+  else .
+  end;
+
+.meta | {
+  title: (.title | extract_value),
+  author: (.author | extract_value),
+  date: (.date | extract_value),
+  tags: (.tags | extract_value),
+  keywords: (.keywords | extract_value)
+}

@@ -1,16 +1,9 @@
 ---
-title: "架构考试 - 信息系统"
+title: "信息系统"
 date: 2025-05-05T21:40:32+08:00
-lastmod: 2025-05-05T21:40:32+08:00
-draft: false
 author: "Liu Zheng"
-featuredImage: "/resources/202504281636.jpg"
-featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
-lightgallery: true
-toc:
-  auto: false
 ---
 
 本文总结了系统架构师考试中信息系统相关知识，包括信息系统的定义、发展阶段、分类、生命周期、建设原则及开发方法。内容涵盖业务处理系统、管理信息系统、决策支持系统、专家系统、办公自动化系统、企业资源规划等典型信息系统的概念、功能、组成及特点，并介绍了政府信息化与企业信息化的架构模型。适合备考和系统性复习信息系统基础知识。

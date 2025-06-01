@@ -60,50 +60,62 @@ if ! command -v jupyter &> /dev/null; then
 fi
 
 ###############################################################################
+# Copy Posts to Build Directory
+###############################################################################
+
+echo "Copying posts to build directory..."
+
+PROJECT_POSTS_DIR="$PROJECT_HOME/posts"
+if [ ! -d "$PROJECT_POSTS_DIR" ]; then
+    echo "Posts directory does not exist: $PROJECT_POSTS_DIR"
+    exit 1
+fi
+
+cp -rf "$PROJECT_POSTS_DIR" "$PROJECT_BUILD_DIR/"
+
+###############################################################################
 # Convert Jupyter Notebooks to Markdown
 ###############################################################################
 
-# List of notebooks to convert
-PROJECT_NOTEBOOKS_DIR="$PROJECT_HOME/posts/notes"
-if [ ! -d "$PROJECT_NOTEBOOKS_DIR" ]; then
-    echo "Notebooks directory does not exist: $PROJECT_NOTEBOOKS_DIR"
-    exit 1
+echo "Converting Jupyter Notebooks to Markdown..."
+
+PROJECT_NOTEBOOKS_DIR="$PROJECT_BUILD_DIR/posts/notes"
+if [ -d "$PROJECT_NOTEBOOKS_DIR" ]; then
+    jupyter nbconvert --to markdown "$PROJECT_NOTEBOOKS_DIR/**/*.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
 fi
 
-PROJECT_NOTEBOOKS_LIST=$(find "$PROJECT_NOTEBOOKS_DIR" -name "*.ipynb" -type f)
-echo "Found notebooks:"
-for NOTEBOOK in $PROJECT_NOTEBOOKS_LIST; do
-    echo "Converting $NOTEBOOK to Markdown..."
-    NOTEBOOK_DIR_NAME=$(basename $(dirname "$NOTEBOOK"))
-    NOTEBOOK_DIR=$PROJECT_BUILD_DIR/posts/notes/$NOTEBOOK_DIR_NAME
-    echo "Output directory: $NOTEBOOK_DIR"
-    jupyter nbconvert --to markdown "$NOTEBOOK" --output-dir="$NOTEBOOK_DIR" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
-    if [ $? -ne 0 ]; then
-        echo "Failed to convert $NOTEBOOK"
-        exit 1
-    fi
+###############################################################################
+# Build Markdown Index JSON
+###############################################################################
+
+echo "Building index.json..."
+
+OUTPUT_INDEX=()
+
+PROJECT_JQ_FILE="$PROJECT_HOME/dformat.jq"
+PROJECT_INDEX_FILE="$PROJECT_BUILD_DIR/posts/meta.json"
+
+for MARKDOWN in $(find "$PROJECT_BUILD_DIR/posts" -name "*.md" -type f); do
+    MARKDOWN_META="$(dirname "$MARKDOWN")/meta.json"
+    pandoc -s -t json "$MARKDOWN" | jq -f "$PROJECT_JQ_FILE" | jq ".path = \"${MARKDOWN##*/posts}\""> "$MARKDOWN_META"
+    OUTPUT_INDEX+=("$(jq -c . "$MARKDOWN_META")")
 done
 
-###############################################################################
-# Copy Markdown Files
-###############################################################################
-
-# List of markdowns to copy
-PROJECT_MARKDOWNS_DIR="$PROJECT_HOME/posts/exams"
-if [ ! -d "$PROJECT_MARKDOWNS_DIR" ]; then
-    echo "Markdowns directory does not exist: $PROJECT_MARKDOWNS_DIR"
-    exit 1
-fi
-
-cp -rf "$PROJECT_MARKDOWNS_DIR" "$PROJECT_BUILD_DIR/posts/"
+printf '%s\n' "${OUTPUT_INDEX[@]}" | jq -s '.' > "$PROJECT_INDEX_FILE"
+echo "Index JSON built successfully at $PROJECT_INDEX_FILE"
 
 ###############################################################################
 # Deploy to Cloudflare
 ###############################################################################
 
-rclone sync "$PROJECT_BUILD_DIR/posts" "cloudflare:foliage-note" --checksum --progress --transfers=10 --checkers=10
-if [ $? -ne 0 ]; then
-    echo "Failed to sync posts to Cloudflare."
-    exit 1
+PROJECT_DEPLOY=false
+
+if [ "$PROJECT_DEPLOY" = true ]; then
+    echo "Deploying to Cloudflare..."
+    rclone sync "$PROJECT_BUILD_DIR/posts" "cloudflare:foliage-note" --checksum --progress --transfers=10 --checkers=10
+    if [ $? -ne 0 ]; then
+        echo "Failed to sync posts to Cloudflare."
+        exit 1
+    fi
+    echo "Posts copied to Cloudflare successfully."
 fi
-echo "Posts copied to Cloudflare successfully."

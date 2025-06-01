@@ -1,16 +1,9 @@
 ---
-title: "架构考试 - 论文案例 - 大数据论文案例"
+title: "论文案例"
 date: 2025-05-05T21:40:32+08:00
-lastmod: 2025-05-05T21:40:32+08:00
-draft: false
 author: "Liu Zheng"
-featuredImage: "/resources/202504281636.jpg"
-featuredImagePreview: "/resources/202504281636.jpg"
 tags: ["笔记", "考试"]
 categories: ["架构考试"]
-lightgallery: true
-toc:
-  auto: false
 ---
 
 基于你提供的“湖南省‘六医联动’智能化信息平台建设项目”文档内容以及你希望引入Lambda架构的不足之处，我为你整理了一个适用于架构师考试的论文结构大纲（约3000字），内容结构如下，并特别结合了Lambda架构的问题及本项目的实际案例支撑。
