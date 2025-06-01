@@ -108,7 +108,7 @@ echo "Index JSON built successfully at $PROJECT_INDEX_FILE"
 # Deploy to Cloudflare
 ###############################################################################
 
-PROJECT_DEPLOY=false
+PROJECT_DEPLOY=true
 
 if [ "$PROJECT_DEPLOY" = true ]; then
     echo "Deploying to Cloudflare..."
