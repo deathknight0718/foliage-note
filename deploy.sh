@@ -60,7 +60,7 @@ if ! command -v jupyter &> /dev/null; then
 fi
 
 ###############################################################################
-# Copy Posts to Build Directory
+# Deploy Posts to Build Directory
 ###############################################################################
 
 echo "Copying posts to build directory..."
@@ -73,20 +73,12 @@ fi
 
 cp -rf "$PROJECT_POSTS_DIR" "$PROJECT_BUILD_DIR/"
 
-###############################################################################
 # Convert Jupyter Notebooks to Markdown
-###############################################################################
 
 echo "Converting Jupyter Notebooks to Markdown..."
+jupyter nbconvert --to markdown "$PROJECT_POSTS_DIR/**/*.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
 
-PROJECT_NOTEBOOKS_DIR="$PROJECT_BUILD_DIR/posts/notes"
-if [ -d "$PROJECT_NOTEBOOKS_DIR" ]; then
-    jupyter nbconvert --to markdown "$PROJECT_NOTEBOOKS_DIR/**/*.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
-fi
-
-###############################################################################
-# Build Markdown Index JSON
-###############################################################################
+# Build Metadata
 
 echo "Building index.json..."
 
