@@ -76,7 +76,7 @@ cp -rf "$PROJECT_POSTS_DIR" "$PROJECT_BUILD_DIR/"
 # Convert Jupyter Notebooks to Markdown
 
 echo "Converting Jupyter Notebooks to Markdown..."
-jupyter nbconvert --to markdown "$PROJECT_POSTS_DIR/**/*.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
+jupyter nbconvert --to markdown "$PROJECT_BUILD_DIR/posts/**/**/note.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
 
 # Build Metadata
 
