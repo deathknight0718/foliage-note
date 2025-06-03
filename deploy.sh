@@ -49,9 +49,10 @@ PROJECT_BUILD_DIR="$PROJECT_HOME/.build"
 if [ -d "$PROJECT_BUILD_DIR" ]; then
     echo "Build directory exists: $PROJECT_BUILD_DIR"
     rm -rf "$PROJECT_BUILD_DIR"
-    mkdir -p "$PROJECT_BUILD_DIR"
     echo "Reset existing build directory."
 fi
+
+mkdir -p "$PROJECT_BUILD_DIR"
 
 # Check if Jupyter is Installed
 if ! command -v jupyter &> /dev/null; then
@@ -71,11 +72,15 @@ if [ ! -d "$PROJECT_POSTS_DIR" ]; then
     exit 1
 fi
 
-cp -rf "$PROJECT_POSTS_DIR" "$PROJECT_BUILD_DIR/"
+echo "Copying posts from $PROJECT_POSTS_DIR to $PROJECT_BUILD_DIR ..."
+/bin/cp -rf "$PROJECT_POSTS_DIR" "$PROJECT_BUILD_DIR/"
 
 # Convert Jupyter Notebooks to Markdown
 
-echo "Converting Jupyter Notebooks to Markdown..."
+if [ ! -d "$PROJECT_BUILD_DIR/posts" ]; then
+    echo "Posts directory does not exist: $PROJECT_BUILD_DIR/posts"
+    exit 1
+fi
 jupyter nbconvert --to markdown "$PROJECT_BUILD_DIR/posts/**/**/note.ipynb" --output="index.zh-cn.md" --NbConvertApp.output_files_dir="./resources"
 
 # Build Metadata
@@ -100,9 +105,9 @@ echo "Index JSON built successfully at $PROJECT_INDEX_FILE"
 # Deploy to Cloudflare
 ###############################################################################
 
-PROJECT_DEPLOY=true
+PROJECT_DEPLOYMENT_CODE=0
 
-if [ "$PROJECT_DEPLOY" = true ]; then
+if [ "$PROJECT_DEPLOYMENT_CODE" -eq 0 ]; then
     echo "Deploying to Cloudflare..."
     rclone sync "$PROJECT_BUILD_DIR/posts" "cloudflare:foliage-note" --checksum --progress --transfers=10 --checkers=10
     if [ $? -ne 0 ]; then

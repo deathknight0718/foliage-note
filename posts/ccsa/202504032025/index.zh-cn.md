@@ -1,9 +1,9 @@
 ---
-title: "架构师笔记 - 强化概念"
+title: "考试笔记 - CCSA - 强化概念"
 date: 2025-05-05T21:40:32+08:00
 author: "Liu Zheng"
 tags: ["笔记", "考试"]
-categories: "CCSA"
+categories: "考试笔记"
 ---
 
 本文梳理了架构考试中的弱点概念，涵盖计算机体系结构、芯片发展、网络协议、物联网与移动通信、CORBA 与 TCSEC 标准、软件质量属性、UML、TOGAF、关系代数、操作系统内核、MDA 与 ABSD 等核心知识点，便于系统复习与查阅。
