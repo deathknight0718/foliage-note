@@ -111,6 +111,5 @@ runs
 # Build Files
 .build
 
-# Site
-site/themes
-site/.hugo_build.lock
+# Cursor
+.cursor
